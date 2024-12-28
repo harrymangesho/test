@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+#gameArea {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 2px solid #fff;
+}
+
+#player {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #00f;
+    transform: translateX(-50%);
+}
+
+#target {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #f00;
+    transform: translateX(-50%);
+}
